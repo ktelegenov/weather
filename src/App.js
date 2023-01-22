@@ -20,7 +20,6 @@ function App() {
       });
   }, [apiUrl]);
 
-  
   return (
     <div className="App">
       <h1>Heading 1</h1>
