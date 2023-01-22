@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import "semantic-ui-css/semantic.min.css";
-import "../../public/styles.css";
 import Weather from "./Weather";
 
 function App() {

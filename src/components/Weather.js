@@ -1,7 +1,5 @@
 import React from "react";
-import "../../public/styles.css";
 import { Card } from "semantic-ui-react";
-// import { moment } from "moment";
 
 const InfoCard = ({ weatherData }) => (
   <Card>
