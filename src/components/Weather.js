@@ -17,9 +17,9 @@ const InfoCard = ({ weatherData }) => (
         {new Date(weatherData.sys.sunset * 1000).toLocaleTimeString("en-US")}
       </p>
       <p>Description: {weatherData.weather[0].main}</p>
-      <p>Humidity: {weatherData.main.humidity} %</p> */}
+      <p>Humidity: {weatherData.main.humidity} %</p>
       {/* <p>Day: {moment().format("dddd")}</p>
-      <p>Date: {moment().format("LL")}</p>
+      <p>Date: {moment().format("LL")}</p> */}
     </Card.Content>
   </Card>
 );
