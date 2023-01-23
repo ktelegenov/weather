@@ -13,7 +13,7 @@ function MyCard(props) {
             <Card.Title>{props.info.name}</Card.Title>
             <Card.Text>
               <p>Temperature: {Math.round(props.info.main.temp - 273.15)} C </p>
-              <p>Feels like: {Math.round(props.info.main.feels_like)} C</p>
+              <p>Feels like: {Math.round(props.info.main.feels_like - 273.15)} C</p>
               <p>Humidity: {props.info.main.humidity} </p>
               <p>Description: {props.info.weather[0].description}</p>
             </Card.Text>
